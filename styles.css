@@ -6,7 +6,11 @@ body {
 }
 
 header {
-    background: #0000FF;
+    background-image: url('walpaper_selamat_datang.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
     color: white;
     padding: 20px;
     text-align: center;
@@ -42,13 +46,23 @@ nav ul li a {
 
 .sidebar {
     width: 25%;
-    background: #00BFFF;
+    background: #0d6efd;
     padding: 20px;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: #495057;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar ul li a:hover {
+  color: #a41414;
 }
 
 .content {
     width: 75%;
-    background: #1E90FF;
+    background: #ffffff;
     padding: 20px;
 }
 
